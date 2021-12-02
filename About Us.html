@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<title>Kopi Kisahku Tentangnya - About Us</title>
+<meta charset="utf-8">
+	<link rel="shortcut icon" href="../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/LOGO (2) (1).png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+></script>
+	<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+  rel="stylesheet"
+/>
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+	
+	<script>
+	
+	$(document).ready(function(){
+		$('.hidden-grid').slideUp();
+		
+//		$('.navbar-toggler').click(function() {
+//			if ($('.navbar').hasClass('navbar-dark')) {
+//				if ($('.navbar-toggler').hasClass('collapsed')) {
+//					console.log('click has collapsed')
+//					$('.navbar').css('background-color', 'black')
+//					
+//								
+//								
+//							} else {
+//								console.log('click has not collapsed')
+//								$('.navbar').css('background-color', 'transparent')
+//								
+//							}
+//				}
+//							
+//		})
+		
+		
+		$('.load-button').click(function() {
+			$('.hidden-grid').slideDown();
+		})
+		
+	
+		
+		$(window).resize(function() {
+		  // This will execute whenever the window is resized
+		  if ($(window).width() <= 990 ){
+			  $('.image-container').removeClass('col');
+			  $('.image-container').addClass('col-xs');
+			  
+		  } else {
+			  $('.image-container').removeClass('col-xs');
+			  $('.image-container').addClass('col');
+			  
+		  } 
+		});
+	
+		$(window).resize(function() {
+		  // This will execute whenever the window is resized
+		  if ($(window).width() <= 990 ){
+			  $('.nav-link').removeClass('nav-option');		  
+		  } else {
+			  $('.nav-link').addClass('nav-option');
+		  } 
+		});
+	$(window).resize(function() {
+		  // This will execute whenever the window is resized
+		  if ($(window).width() <= 550 ){
+			  $('.container-form').removeClass('pl-5');
+			  $('.container-form').removeClass('pr-5');
+			   $('.container-form').addClass('pr-1');
+			   $('.container-form').addClass('pl-1');
+			  $('.card-form').removeClass('p-4');
+		  } else {
+			 $('.container-form').removeClass('pl-1');
+			  $('.container-form').removeClass('pr-1');
+			   $('.container-form').addClass('pr-5');
+			   $('.container-form').addClass('pl-5');
+			  $('.card-form').addClass('p-4');
+		  } 
+		});
+		
+		
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 50) {
+				
+				// for logo
+				
+//				$('#logo-navbar').attr('src', '../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo-black.png');
+				var image = $('.logo')
+				if (image.attr('src') == '../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo.png') {
+					$('.navbar').fadeOut('fast', function () {
+						$('.navbar').css('background','white');
+						$('.navbar').removeClass('py-3');
+						$('.navbar').addClass('py-2');
+							$('.navbar').removeClass('navbar-dark')
+						$('.navbar').addClass('navbar-light')
+						$('.navbar').fadeIn();
+					});
+					
+					$('.nav-link').fadeOut('fast', function(){
+						$('.option-active').removeClass('text-white');
+						$('.option-active').addClass('text-black');
+						$('.nav-link').fadeIn();
+					});
+					
+					$('.logo').fadeOut('fast', function () {
+						
+						
+						image.attr('src', '../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo-black.png');
+						image.fadeIn();
+					});	
+				}
+				
+				
+			} else {
+				
+				
+				// for logo
+//				$('#logo-navbar').attr('src', '../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo.png')
+				var image = $('.logo')
+				
+				
+				
+				$('.navbar').fadeIn('fast', function () {
+						$('.navbar').css('background','transparent');
+						$('.navbar').removeClass('navbar-light')
+						$('.navbar').addClass('navbar-dark')
+						
+						
+//						$('.navbar').removeClass('py-2');
+//						$('.navbar').addClass('py-3');
+						$('.navbar').fadeIn();
+					});
+					
+				$('.nav-link').fadeOut('fast', function(){
+						$('.option-active').removeClass('text-black');
+					$('.option-active').addClass('text-white');
+					$('.nav-link').fadeIn();
+				});
+				
+				$('.logo').fadeOut('fast', function () {
+					image.attr('src', '../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo.png');
+					image.fadeIn();
+				});
+			}
+		});
+	});
+		
+	
+	
+	</script>	
+
+	
+	
+	
+	</head>
+  
+	
+
+	
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar lemon-font">
+  		<a id="logo-navbar" class="navbar-brand  p-2" href="carousel.html">
+		<img class ="logo" src="../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/logo.png" width="7000" height="2071" alt=""/>
+  </a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav ml-auto">
+		  <li class=" nav-item">
+			<a class="nav-link text-white option-active" href="About Us.html">About Us</a>
+			  
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-grey nav-option" href="Products.html">Products</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-grey nav-option" href="Promo.html">Promo</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-grey nav-option" href="Partnership.html">Partnership</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link text-grey nav-option" href="Contact Us.html">Contact Us</a>
+		  </li>
+		</ul>
+	 
+
+	  </div>
+</nav>
+	
+	
+	
+	
+	
+	<div class="fourth banner">
+		  <div class="container h-100">
+			  <div class="row align-items-end h-100">
+				  <div class="col align-self-center text-center">
+						<p class = "animate__animated animate__fadeInUp helvetica-font text-white" style="animation-delay: 0.25s"><img src="../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/bean (1).png" width="53" height="53" alt=""/></p>
+			  <h3 class ="animate__animated animate__fadeInUp kaushan-font text-white" style="animation-delay: 0.35s">“Sebuah Kisah Tentang Dirinya Melalui <br>Secangkir Kopi”</h3>
+					
+			
+				  </div>
+				  
+			  </div>
+			  
+			  
+			   
+		  
+		  </div>
+		  
+		 
+	  </div>
+
+	
+	
+<div class="container pl-5 pr-5 mt-5 kaushan-font" style="overflow-x: hidden">
+  <h1 class="gold text-center pb-4" data-aos="zoom-in" data-aos-once="true">Sahabat Kisahku,</h1>
+		<div class="container">
+  			<div class="row rowPosition-CU">
+   				 <div class="col">
+				<p class="helvetica-font text-justify" data-aos="fade-right" data-aos-once="true" >Kopi Kisahku Tentangnya adalah kedai kopi Fresh to Cup dengan konsep Grab and Go hadir untuk memberikan minuman dengan cita rasa original kopi lokal terbaik di Indonesia. <br><br> Proses pemesanan, pembuatan sampai penyajian akan memberikan sebuah kisah yang berkesan kepada para penikmatnya Biji kopi pilihan yang diambil langsung dari petani melalui proses penyortiran dengan standard mutu terbaik, setiap biji kopi yang dipanggang mendapat penanganan langsung dari ahlinya.<br><br>
+		Dengan budaya kerja kreatif dan inovatif team kami akan terus menemukan cara dan mengembangkan metode untuk menghasilkan produk-produk yang berkualitas tinggi dengan harga yang tetap bersahabat.</p>
+			
+			
+			
+		</div>
+				<div class="image-container col" data-aos="fade-left" data-aos-once="true">
+			<img class="" src="../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/biji kopi (1).png" width="100%" height="" alt=""/>
+		</div>
+		</div>
+	
+	
+	</div>
+		</div>
+	
+	<footer class="mt-5">
+		<div class="footer">
+			<div class="social text-center">
+				<a class="btn btn-circle btn- btn-outline-light btn-floating m-1" href="https://www.instagram.com/kopikisahku/" role="button"
+        			><i class="fab fa-instagram"></i
+      			></a>
+				<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/search/top?q=kopi%20kisahku%20tentangnya" role="button"
+       			><i class="fab fa-facebook-f"></i
+      		></a> 
+			</div>
+				<div class="text-center mt-3 tekskecilaja">
+			<p class="text1 helvetica-font text-white">Powered by Abriliant</p>
+				<p class="helvetica-font text-white">@2021 Kopi Kisahku Tentangnya Website</p>
+			</div>
+			
+	  </div>
+		
+	
+	</footer>
+	
+	
+	
+	
+	</body>
+	
+	
+	
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+		offset: 400,
+		duration:800,
+		easing: 'ease',
+		
+});
+  </script>
+	
+</html>
