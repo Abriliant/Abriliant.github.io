@@ -195,46 +195,46 @@ div{
 
 /*SLIDE*/
 .first-slide {
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/4.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/4.jpg");
 }
 .second-slide{
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/2.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/2.jpg");
 }
 .third-slide{
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/1.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/1.jpg");
 }
 
 .fourth {
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/5.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/5.jpg");
 }
 
 .fifth {
 	
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/7 (1).jpg")
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/7 (1).jpg")
 }
 
 .sixth{
-	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/IMG_1569 (1).jpg")
+	background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/IMG_1569 (1).jpg")
 	
 }
 
 
-.seventh{background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/IMG_9924 (1).jpg")
+.seventh{background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("imgs/IMG_9924 (1).jpg")
 	
 	
 }
 
 .eight-slide {
-	background-image:url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/circle 1.png");
+	background-image:url("imgs/circle 1.png");
 	
 }
 
 .ninth-slide {
-	background-image:url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/copy 2 (1).jpg")
+	background-image:url("imgs/copy 2 (1).jpg")
 }
 
 .tenth-slide {
-	background-image:url("../../../Documents/SUNWAY/WEB DESIGN/ABRILIANT PORTFOLIO/imgs/copy 3 (1).jpg")
+	background-image:url("imgs/copy 3 (1).jpg")
 }
 
 .circle{
