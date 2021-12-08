@@ -183,6 +183,9 @@ div{
 	.teksmengecil{
 		font-size: 30px!important;
 }
+	.teksmengecil2{
+		font-size: 15px!important;
+}
 }
 @media only screen and (max-width: 321px){
 	.tekskecilaja{
